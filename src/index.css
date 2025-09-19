@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #fc0000d7;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #00ffdd;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
-  background-color: violet;
+  background-color: rgb(75, 77, 74);
   color: white 
 }
 
