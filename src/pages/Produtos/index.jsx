@@ -1,18 +1,15 @@
+import axios from "axios"
 const Produtos = () => {
-    
-    //Objeto com a lista de pizzas 
+// Consumo de um endpoint com as pizzas
 
-    const pizzas = 
-    
-    'Pizza de Muçarela',
-    'Pizza de Calabresa',
-    'Pizza Baiana',
-    
+    axios.get(("http://viacep.com.br/ws/01010000/json")
+    .then(response=>{
+        console.log(response.data)
+
+    })
     
     //Alteração da lista de pizzas 
-    const listaPizzas = pizzas.localeCompare(pizza=><li>{pizza<}</li>)
-    
-    
+    const listaPizzas = pizzas.map(pizza=><li>{pizza<}</li>)   
     return(
         <div>
             <ul>
